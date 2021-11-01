@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Python Newsletter</title>
+
+
+<script>
+
+function show(shown, hidden)
+{
+	document.getElementById(shown).style.display='block';
+	document.getElementById(hidden).style.display='none';
+	return false;
+}
+</script>
+
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+    html {
+  background-color: white ;
+  background-size: cover;
+}
+
+#mainMenu li {
+	display:block;
+	width:100px;
+	float:left;
+
+}
+
+#mainMenu a {
+	display:block;
+	background-color:white;
+	color: black;
+    text-decoration: none;
+}
+
+#mainMenu a:hover {
+    color: royalblue;
+}
+
+
+header {
+
+    float: right;
+    width: 90%;
+  background-color: white;
+  text-align: left;
+  color: black;
+
+}
+
+nav {
+  float: left;
+  width: 10%;
+
+  background: white;
+  padding: 10px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article{
+    background-color: white;
+}
+
+
+h1{
+    font-family: sans-serif;
+    text-align: right;
+    font-size: xx-large;
+    padding-right: 20px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+    font-family: sans-serif;
+  display: inline-block;
+    border-style: groove;
+  font-size: 16px;
+    transition-duration: 0.4s;
+
+}
+
+.button:hover {
+    background-color: midnightblue;
+    color: white;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 25px 40px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #f2f2f2;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 10%;
+  background-color: #f2f2f2;
+  width: auto;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<section>
+
+     <header>
+	<div class="navbar">
+			<h2><a href="home.html" >Home</a></h2>
+        <div class="subnav">
+            <button class="subnavbtn"><b style="font-family: sans-serif;">DB Management</b><i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="participanti.html">DB Participanti</a>
+                <a href="adaugare.html">Adaugare participanti</a>
+                <a href="delete.html">Delete participanti</a>
+            </div>
+        </div>
+
+
+        <h1 style="color: darkblue">Newsletter</h1>
+
+        <hr>
+    </div>
+    </header>
+
+
+    <nav>
+         <img src="https://scontent.fotp3-3.fna.fbcdn.net/v/t1.6435-9/118790765_4404150279656609_6369285195765721510_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=N36yTSsQuzAAX_4bnXi&_nc_ht=scontent.fotp3-3.fna&oh=536af774ec4d7b028d63ea9929a45872&oe=61856466" alt="LOGO" style="float:left;width:80px;height:80px;alignment: center" >
+    </nav>
+
+</section>
+
+<div id="adaugare.html">
+
+    <article>
+
+        <br><br><br><br>
+        <h3 style="text-align: center; font-family: sans-serif;">Adăugare participanți</h3><hr><br><br>
+
+
+    </article>
+</div>
+
+</body>
+</html>
